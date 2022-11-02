@@ -9,6 +9,15 @@
     margin-bottom: -120px;
 }
 
+.nombreEmpresa {
+    font-size: 44px;
+}
+
+.distribuidorAutorizado {
+    color: rgb(255, 0, 0);
+    margin-top: -50px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
