@@ -1,0 +1,31 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #aaaaaa;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #1244cf;
+    top: -100%;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transition: 0.4s ease-in-out all;
+}
+
+.button:hover::after {
+    top: 0;
+    left: 0;
+}

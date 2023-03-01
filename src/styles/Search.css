@@ -1,0 +1,24 @@
+.search {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background-color: #303030;
+    padding-bottom: 15px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    font-size: 25px;
+    border-inline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    outline: none;
+    color: #ddd;
+}
+
+.icon-close {
+    cursor: pointer;
+}
