@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tienda-en-linea/static/css/main.bc63be20.css",
+    "main.css": "/tienda-en-linea/static/css/main.bea9089c.css",
     "main.js": "/tienda-en-linea/static/js/main.85fd0dec.js",
     "static/media/tacones1.png": "/tienda-en-linea/static/media/tacones1.fb78777053f577972e0b.png",
     "static/media/zapatos5.png": "/tienda-en-linea/static/media/zapatos5.cdc5bd7f99e11ff441a1.png",
@@ -23,11 +23,11 @@
     "static/media/zapatos1.png": "/tienda-en-linea/static/media/zapatos1.4383a238e10bc9428160.png",
     "static/media/arrival4.png": "/tienda-en-linea/static/media/arrival4.82c193fd4ef00feb49ce.png",
     "index.html": "/tienda-en-linea/index.html",
-    "main.bc63be20.css.map": "/tienda-en-linea/static/css/main.bc63be20.css.map",
+    "main.bea9089c.css.map": "/tienda-en-linea/static/css/main.bea9089c.css.map",
     "main.85fd0dec.js.map": "/tienda-en-linea/static/js/main.85fd0dec.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc63be20.css",
+    "static/css/main.bea9089c.css",
     "static/js/main.85fd0dec.js"
   ]
 }
