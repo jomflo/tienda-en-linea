@@ -1,33 +1,41 @@
 {
   "files": {
-    "main.css": "/tienda-en-linea/static/css/main.beeca880.css",
-    "main.js": "/tienda-en-linea/static/js/main.b5e0f6dd.js",
+    "main.css": "/tienda-en-linea/static/css/main.4aec80e2.css",
+    "main.js": "/tienda-en-linea/static/js/main.6c1200d8.js",
     "static/media/tacones1.webp": "/tienda-en-linea/static/media/tacones1.2b5efced1f4db65211ca.webp",
     "static/media/tacones3.webp": "/tienda-en-linea/static/media/tacones3.e816cd1f66c78c24773f.webp",
     "static/media/arrival3.webp": "/tienda-en-linea/static/media/arrival3.ca82c1bbed1e50674af8.webp",
+    "static/media/accesorio7.webp": "/tienda-en-linea/static/media/accesorio7.2c76159ea33f75cbba37.webp",
     "static/media/zapatos6.webp": "/tienda-en-linea/static/media/zapatos6.80d6f76ba2d9011d7304.webp",
+    "static/media/accesorio3.webp": "/tienda-en-linea/static/media/accesorio3.343d0a88e30127628a74.webp",
     "static/media/zapatos5.webp": "/tienda-en-linea/static/media/zapatos5.af86e9a75d135f26f51e.webp",
     "static/media/zapatos8.webp": "/tienda-en-linea/static/media/zapatos8.4669d07a700d13377e0a.webp",
     "static/media/zapatos10.webp": "/tienda-en-linea/static/media/zapatos10.31d3f2ddd43ce34aca0e.webp",
     "static/media/clothes.webp": "/tienda-en-linea/static/media/clothes.3c09f8e8f34bf91b28a1.webp",
     "static/media/modelohome1.webp": "/tienda-en-linea/static/media/modelohome1.5ceda33a03563738da0c.webp",
+    "static/media/accesorio5.webp": "/tienda-en-linea/static/media/accesorio5.faba05f24027531e5c49.webp",
+    "static/media/accesorio1.webp": "/tienda-en-linea/static/media/accesorio1.eb194776c7ba1dfe11d8.webp",
     "static/media/arrival2.webp": "/tienda-en-linea/static/media/arrival2.81b604ae85f9c621cbbe.webp",
     "static/media/zapatos2.webp": "/tienda-en-linea/static/media/zapatos2.0b26cf2e924c7f1ca987.webp",
+    "static/media/accesorio6.webp": "/tienda-en-linea/static/media/accesorio6.5f51313cea1fbc87401f.webp",
     "static/media/arrival1.webp": "/tienda-en-linea/static/media/arrival1.df4325d7a8c093722f54.webp",
     "static/media/zapatos7.webp": "/tienda-en-linea/static/media/zapatos7.6ef59908ac691927f40a.webp",
     "static/media/sandalias1.webp": "/tienda-en-linea/static/media/sandalias1.708cff5e5458179269ad.webp",
     "static/media/zapatos9.webp": "/tienda-en-linea/static/media/zapatos9.d4fce7db18648d7b97a1.webp",
     "static/media/zapatos3.webp": "/tienda-en-linea/static/media/zapatos3.08c4d1bbb4f8a2510d3a.webp",
     "static/media/tacones2.webp": "/tienda-en-linea/static/media/tacones2.98ecf596d13431851fe2.webp",
+    "static/media/accesorio2.webp": "/tienda-en-linea/static/media/accesorio2.1ee28e8c477279614cee.webp",
     "static/media/zapatos4.webp": "/tienda-en-linea/static/media/zapatos4.141ca333e27fa5217eb3.webp",
+    "static/media/accesorio4.webp": "/tienda-en-linea/static/media/accesorio4.59e778e9ce4c2dcc6e09.webp",
+    "static/media/accesorio8.webp": "/tienda-en-linea/static/media/accesorio8.b885f4191a9dd82932b5.webp",
     "static/media/zapatos1.webp": "/tienda-en-linea/static/media/zapatos1.1ad508bd7930b2c8f90d.webp",
     "static/media/arrival4.webp": "/tienda-en-linea/static/media/arrival4.39892bee5abfddcd897c.webp",
     "index.html": "/tienda-en-linea/index.html",
-    "main.beeca880.css.map": "/tienda-en-linea/static/css/main.beeca880.css.map",
-    "main.b5e0f6dd.js.map": "/tienda-en-linea/static/js/main.b5e0f6dd.js.map"
+    "main.4aec80e2.css.map": "/tienda-en-linea/static/css/main.4aec80e2.css.map",
+    "main.6c1200d8.js.map": "/tienda-en-linea/static/js/main.6c1200d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.beeca880.css",
-    "static/js/main.b5e0f6dd.js"
+    "static/css/main.4aec80e2.css",
+    "static/js/main.6c1200d8.js"
   ]
 }
