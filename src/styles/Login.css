@@ -1,0 +1,84 @@
+.login {
+    max-width: 500px;
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px;
+    padding-bottom: 30px;
+    box-shadow: rgba(236, 236, 236, 0.26) 0px 0px 200px 20px;
+    margin: 30px auto;
+    background-color: #290525;
+}
+
+.contact-option {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-option .option-sign-in.option-active,
+.contact-option .option-login.option-active {
+    background-color: green;
+}
+
+.contact-option .option-sign-in,
+.contact-option .option-login {
+    background-color: #292626;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.login-form-data :is(.form-data-user, .form-data-password, .form-data-email, .form-data-phone, .form-data-address) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    border-bottom: 1px solid gray;
+    margin: 15px auto;
+}
+
+.login-form-data :is(.form-data-user, .form-data-password, .form-data-email, .form-data-phone, .form-data-address) input {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    color: rgb(235, 233, 233);
+    outline: none;
+}
+
+.login-form-data .form-data-button input,
+.login-form-data .form-data-button button {
+    background-color: #f12076;
+    color: rgb(235, 233, 233);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    height: 45px;
+    max-width: 400px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+
+.form-data-button button .spinner {
+    animation-name: spin;
+    animation-duration: 250ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

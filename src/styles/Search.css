@@ -1,24 +1,41 @@
 .search {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-    background-color: #303030;
-    padding-bottom: 15px;
+    flex-direction: column;
+}
+
+.search-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
 }
 
 .search-input {
+    display: flex;
+    margin: 5px 20px;
+}
+
+.search-input input {
     width: 100%;
     max-width: 500px;
     height: 40px;
-    font-size: 25px;
+    font-size: 20px;
     border-inline: none;
     border: none;
     background-color: transparent;
     border-bottom: 1px solid gray;
     outline: none;
     color: #ddd;
+    width: 100%;
+    text-transform: capitalize;
 }
 
-.icon-close {
-    cursor: pointer;
+.search-input input::first-letter {
+    text-transform: capitalize;
 }

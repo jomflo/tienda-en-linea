@@ -3,6 +3,6 @@ import '../styles/Button.css';
 
 export function Button({text}){
     return(
-        <div className="button">{text}</div>
+         <div className="button" >{text}</div>
     )
 }

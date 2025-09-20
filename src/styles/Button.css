@@ -2,22 +2,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
     width: 150px;
     height: 40px;
-    background-color: transparent;
-    border: 2px solid #aaaaaa;
+    /* background-color: #137b10; */
+    background-color: rgba(255, 196, 0, 0.89);
+    color: rgba(20, 20, 20, 0.8);
     user-select: none;
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    font-weight: 600;
     z-index: 2;
+    transition: 0.4s ease-in-out color;
+}
+
+.button:hover {
+    color: white;
 }
 
 .button::after {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #1244cf;
+    background-color: #9f2892;
     top: -100%;
     left: 0;
     position: absolute;

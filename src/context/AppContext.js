@@ -1,28 +1,39 @@
 import React, { createContext, useState } from "react";
+import { listArticles } from "../Data/listArticles";
+import { listShoppingCart } from "../Data/listShoppingCart";
 
 export const AppContext = createContext();
 
 export function AppContextProvider(props) {
   const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
-  const [comment, setComment] = useState("");
+  const [affair, setAffair] = useState("");
+  const [search, setSearch] = useState('');
+  //
+  const [listShopping, setListShopping] = useState(listShoppingCart);
 
   const contact = {
     name,
+    number,
     email,
-    comment,
+    affair,
     setName,
+    setNumber,
     setEmail,
-    setComment,
+    setAffair,
   };
 
   return (
     <AppContext.Provider
-      value={
-        {
-        contact:contact
-       }
-    }
+      value={{
+        contact: contact,
+        listArticles: listArticles,
+        listShopping: listShopping,
+        setListShopping:setListShopping,
+        search: search,
+        setSearch: setSearch
+      }}
     >
       {props.children}
     </AppContext.Provider>

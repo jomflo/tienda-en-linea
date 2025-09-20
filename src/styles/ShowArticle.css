@@ -1,0 +1,113 @@
+.show-article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rebeccapurple;
+    min-height: calc(100vh - 50px);
+}
+
+.show-article-back {
+    display: flex;
+    width: 100%;
+}
+
+.show-article-back .icon-goback {
+    width: 25px;
+    height: 25px;
+    /* background-color: #ffcf00; */
+    position: relative;
+    left: 10px;
+    color: #ffcf00;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.show-article-back .icon-goback:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.show-article-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+    /* de el total de el alto le restamos: 75px de la barra de navegacion, 45px del boton regresar y 10px del padding de show-article-main(5px arriba y 5px abajo*/
+    min-height: calc((100vh) - (50px + 45px + 10px));
+}
+
+:is(.show-article-main)>.show-article-img,
+.show-article-detaills {
+    width: 100%;
+}
+
+.show-article-img img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.show-article-detaills {
+    padding-right: 25px;
+    text-align: justify;
+}
+
+.show-article-detaills-name {
+    font-size: 40px;
+    color: #ffa700;
+}
+
+.show-article-detaills-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.show-article-detaills-price .price-before {
+    font-size: 25px;
+    color: #aea1a1;
+    text-decoration: line-through;
+}
+
+.show-article-detaills-price .price-now {
+    font-weight: 700;
+    font-size: 30px;
+    color: #51e512;
+}
+
+.btn-buy-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 10px 5px;
+}
+
+@media screen and (max-width:768px) {
+    .show-article-main {
+        /* de el total de el alto le restamos: 35px de la barra de navegacion, 45px del boton regresar y 10px del padding de show-article-main(5px arriba y 5px abajo*/
+        min-height: calc((100vh) - (35px + 45px + 10px));
+    }
+    .show-article-img img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .show-article-main {
+        flex-direction: column;
+    }
+    .show-article-detaills {
+        width: auto;
+        padding: 5px;
+    }
+    .show-article-img img {
+        max-width: 280px;
+        max-height: 280px;
+    }
+}

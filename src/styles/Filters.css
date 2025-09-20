@@ -1,0 +1,97 @@
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .filters-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .filters-btn {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .filters-btn-filter {
+        width: 80px;
+        color: rgb(221, 221, 221);
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .filters-price,
+    .filters-size,
+    .filters-color,
+    .filters-preferences {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        color: #898989;
+        width: 100%;
+        height: max-content;
+    }
+    
+    .filters-tittle {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        color: #a8a4a4;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .filters-price .price-range {
+        display: flex;
+        justify-content: space-around;
+    }
+    /***/
+    
+    .filters-size {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .filters-size .size {
+        flex: 1 1 30px;
+        width: 30px;
+        height: 30px;
+        /* background: green; */
+        margin: 2px;
+        text-align: center;
+        color: rgb(163, 163, 163);
+        cursor: pointer;
+        user-select: none;
+        border: 0.5px solid;
+    }
+    /* estilos para el filtro de colores*/
+    /*filtros para articulos de damas o caballeros o ambos*/
+    
+    .filters-sex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .filters-color label {
+        width: 100px;
+    }
+    
+    @media screen and (max-width:480px) {
+        .filters-group {
+            flex-direction: column;
+        }
+    }

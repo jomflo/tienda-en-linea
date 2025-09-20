@@ -1,0 +1,122 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.contact-form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.contact h1 {
+    color: #fead04;
+}
+
+.contact h3 {
+    color: #0087ff;
+    opacity: 0.7;
+    text-align: justify;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 50px;
+}
+
+.contact-form-message {
+    margin: 0 auto;
+    text-align: justify;
+    color: #11d211;
+    ;
+}
+
+.contact-form-data {
+    padding-top: 20px;
+}
+
+.contact-form-data :is( .form-data-name, .form-data-number, .form-data-email, .form-data-affair) input {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    color: rgb(235, 233, 233);
+    outline: none;
+}
+
+.contact-form-data .form-data-button {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.contact-form-data .form-data-button input {
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    background-color: green;
+    color: rgb(250, 250, 250);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form-data .form-data-button input:hover {
+    background-color: #0e348c;
+}
+
+.form-success {
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #720e59;
+    max-width: 100%;
+    min-height: 40px;
+    text-align: justify;
+    margin: 40px auto;
+    padding: 10px;
+    font-size: 17px;
+    color: #c1c1c1;
+    font-weight: 600;
+    border-radius: 8px;
+    /* transition: all 0.5s 0.2s ease-in-out; */
+    animation: success 1s 5s ease-in-out 1;
+}
+
+@keyframes success {
+    0% {
+        opacity: 0.5;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        min-height: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        left: -100%;
+    }
+}
+
+.form-success:hover {
+    background-color: red;
+}
+
+@media screen and (max-width:480px) {
+    .contact-form-data .form-data-button {
+        justify-content: center;
+    }
+    .contact-form-data .form-data-button input {
+        width: 100%;
+        max-width: 100%;
+    }
+}

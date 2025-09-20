@@ -1,0 +1,12 @@
+.footwear {
+    display: flex;
+    flex-direction: column;
+}
+
+.footwear-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}

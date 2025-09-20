@@ -1,0 +1,123 @@
+.navbar {
+    transition: 4s ease-in-out all;
+}
+
+.navbar-principal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 15px;
+    height: 50px;
+    background-color: #303030;
+    transition: 4s ease-in-out display;
+}
+
+.navbar .navbar-logo {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(250, 0, 207);
+    width: 40%;
+    position: relative;
+    top: 0px;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.navbar .navbar-logo span {
+    color: rgb(250, 200, 0);
+}
+
+.navbar-pages {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-pages .link {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ddd;
+    position: relative;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.navbar-pages .link.active,
+.navbar-additional .link.active .icon,
+.navbar-additional .link.active .icon.icon-search {
+    color: rgb(60, 202, 21);
+}
+
+.navbar-additional {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-additional .link {
+    position: relative;
+}
+
+.navbar-additional .link .icon-user,
+.navbar-additional .link .icon-cart,
+.navbar-additional .link .icon.icon-search {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.shopping-cart-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: rgb(221, 7, 7);
+    color: #ddd;
+    text-align: center;
+    top: -10px;
+    right: 20px;
+    position: absolute;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        background-color: #303030;
+        height: auto;
+    }
+    .navbar .navbar-logo {
+        left: 10px;
+    }
+    .navbar-pages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 20px;
+        width: auto;
+    }
+    .navbar-additional {
+        gap: 15px;
+    }
+    .shopping-cart-count {
+        top: -12px;
+        right: 27px;
+        position: relative;
+    }
+}
