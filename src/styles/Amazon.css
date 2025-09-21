@@ -1,0 +1,208 @@
+            table,
+            th,
+            td {
+                border: 1px solid rgb(160, 160, 160);
+                border-collapse: collapse;
+            }
+            
+            th,
+            td {
+                padding: 10px;
+            }
+            
+            thead {
+                font-weight: bold;
+                font-size: 20px;
+                color: rgb(255, 217, 0);
+            }
+            
+            table {
+                margin: 20px auto;
+            }
+            
+            tbody th {
+                text-align: right;
+                color: rgb(255, 255, 255);
+            }
+            
+            .amazon-promotion-description {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                flex: 1 1 400px;
+                left: 10%;
+                position: sticky;
+                text-align: justify;
+                z-index: 1;
+                padding: 5px;
+                margin-top: 20px;
+            }
+            
+            .container-productos-amazon {
+                display: flex;
+                justify-content: right;
+                flex-wrap: wrap;
+                flex-direction: column;
+                /* background-color: rgba(57, 75, 61, 0.24); */
+                width: 100%;
+                margin-bottom: 40px;
+            }
+            
+            .container-productos-amazon-link {
+                width: 100%;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                text-align: left;
+                row-gap: 5px;
+                font-size: 20px;
+            }
+            
+            .container-productos-amazon a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .container-publicidad-amazon {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                row-gap: 30px;
+            }
+            
+            .container-publicidad {
+                display: flex;
+                column-gap: 20px;
+                justify-content: flex-start;
+            }
+            
+            .container-publicidad a {
+                text-decoration: none;
+                border-radius: 25px;
+            }
+            
+            .button.btn-amazon {
+                background-color: rgb(255, 255, 255);
+                font-size: 25px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            
+            .button.btn-agencia {
+                background-color: rgb(11, 182, 11);
+                color: rgb(255, 255, 255);
+                font-size: 25px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            
+            #btn-text-amazon {
+                font-size: 14px;
+                color: rgb(253, 218, 17);
+            }
+            
+            #btn-text-agencia {
+                font-size: 16px;
+                color: rgb(220, 235, 235);
+            }
+            
+            #icon-text-amazon {
+                font-size: 20px;
+                color: rgb(213, 216, 18);
+                text-align: center;
+            }
+            
+            #link-text-amazon {
+                color: rgb(94, 231, 255);
+            }
+            /* css para envios section */
+            
+            .envios-section {
+                margin-top: 60px;
+                padding: 40px 20px;
+                /* background-color: #f9f9f9; */
+                background-color: #e0e0e0;
+                border-radius: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                width: 100%;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                text-align: left;
+                row-gap: 5px;
+            }
+            
+            .envios-section h2 {
+                text-align: center;
+                color: #333;
+                margin-bottom: 10px;
+            }
+            
+            #texto-publicidad-agencia {
+                width: 100%;
+                max-width: 500px;
+            }
+            
+            #span-agencia-usa {
+                color: red;
+            }
+            
+            #span-agencia-ship {
+                color: blue;
+            }
+            
+            .envios-section p {
+                text-align: center;
+                color: #555;
+                margin-bottom: 30px;
+            }
+            
+            .tabla-container {
+                overflow: auto;
+            }
+            
+            .tabla-envios {
+                width: 100%;
+                max-width: 500px;
+                border-collapse: collapse;
+                margin: 0 auto 30px;
+            }
+            
+            .tabla-envios th,
+            .tabla-envios td {
+                padding: 12px 15px;
+                border: 1px solid #ccc;
+                text-align: center;
+            }
+            
+            .tabla-envios th {
+                background-color: #333;
+                color: #fff;
+            }
+            
+            .tabla-envios tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            
+            .contacto-envios {
+                text-align: center;
+                color: #444;
+            }
+            
+            .contacto-envios h3 {
+                margin-top: 10px;
+                color: #222
+            }
+            
+            .contacto-envios p strong {
+                display: flex;
+                justify-content: center;
+                column-gap: 10px;
+            }
+            
+            .contacto-envios p strong a {
+                column-gap: 5px;
+                text-decoration: none;
+                color: #4db114;
+            }

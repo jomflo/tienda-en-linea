@@ -10,10 +10,24 @@
 }
 
 .app-navigation .navigation-message {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background: green;
     padding: 10px;
     text-align: justify;
+    color: white;
+}
+
+.app-navigation .navigation-message a {
+    text-decoration: none;
+    padding: auto 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.app-navigation .navigation-message .navigation-link-amazon {
+    color: rgb(255, 238, 0);
+}
+
+.app-navigation .navigation-message .navigation-link-agencia {
+    color: rgb(0, 195, 255);
 }

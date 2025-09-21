@@ -35,6 +35,13 @@ export function NavBar({ handleClickMenu }) {
           </NavLink>
           <NavLink
             className={`link `}
+            to="/Amazon"
+            onClick={() => handleClickPage()}
+          >
+            Amazon
+          </NavLink>
+          <NavLink
+            className={`link `}
             to="/Accessories"
             onClick={() => handleClickPage()}
           >
@@ -55,13 +62,13 @@ export function NavBar({ handleClickMenu }) {
           >
             Calzado
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className={`link `}
             to="/Blog"
             onClick={() => handleClickPage()}
           >
             Blog
-          </NavLink>
+          </NavLink> */}
 
           <NavLink
             className={`link `}

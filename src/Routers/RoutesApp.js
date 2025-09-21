@@ -12,12 +12,16 @@ import { Cart } from "../pages/Cart";
 import { SmartPhone } from "../pages/SmartPhone";
 import { ShowArticle } from "../pages/ShowArticle";
 import { Search } from "../components/Search";
+import { Amazon } from "../pages/Amazon";
+import { PoliticaPrivacidad } from "../pages/PoliticaPrivacidad";
+import { AvisoAfiliados } from "../pages/AvisoAfiliados";
 
 export function RoutesApp() {
   return (
      <Routes>
        <Route exact path="/" element={<Home />} />
        <Route  path="Home" element={<Home />} /> 
+       <Route  path="Amazon" element={<Amazon />} /> 
        <Route  path="Accessories" element={<Accessories />} />
        <Route  path="Blog" element={<Blog />} />
        <Route  path="Clothes" element={<Clothes />} />
@@ -29,6 +33,8 @@ export function RoutesApp() {
        <Route  path="Seeting" element={<Seeting />} />
        <Route  path="Article/:id" element={<ShowArticle />} />
        <Route  path="Search" element={<Search />} />
+       <Route  path="politica-privacidad" element={<PoliticaPrivacidad />} />
+       <Route  path="aviso-afiliados" element={<AvisoAfiliados />} />
        <Route  path="*" element={<h1>Error 404 !!! Pagina No Encontrada</h1>} />
      </Routes>
 

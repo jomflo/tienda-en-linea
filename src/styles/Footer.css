@@ -1,0 +1,44 @@
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.footer-nav {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #1e90ff;
+}
+
+.footer-copy {
+    color: #aaa;
+    font-size: 13px
+}
+
+.footer-contacto {
+    margin: 10px 0 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-contacto p {
+    margin: 3px 0;
+}
+
+.footer-contacto p a {
+    text-decoration: none;
+    color: #ccc;
+    ;
+}
